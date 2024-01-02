@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Ravi Kumar Mali</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Ravi Kumar Mali</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>  
+                </div>
+
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic-my.png" alt="Ravi Kumar profile picture"/>
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Ravi Kumar Mali</h1>
+                <p class="section__text__p2">QA Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/RaviKumar_Mali_Resume_.pdf')">Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img 
+                src="./assets/linkedin.png" alt="My LinkedIn Profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/ravi-kumar-m-391036bb/'"/>
+                <img
+                src="./assets/github.png" alt="My github profile"
+                class="icon"
+                onclick="location.href='https://github.com/'"/>
+             </div>   
+            </div>
+        </section> 
+        <section id="about">
+            <p class="section__text__p1">Get to Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/nature.jpg" alt="Profile picture"
+                    class="about-pic"/>
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-containers">
+                            <img src="./assets/experience.png" alt="Experience icon"
+                            class="icon"/>
+                            <h3>Experience</h3>
+                            <p>4.5 Years <br />QA Engineer</p>
+                        </div>
+                        <div class="details-containers">
+                            <img src="./assets/education.png" alt="Education icon"
+                            class="icon"/>
+                            <h3>Education</h3>
+                            <p>B.Tech in CSE <br />Intermediate</p>
+                        </div>
+                    </div>    
+                        <div class="text-container">
+                            <p>I have total 4.5years of exeperience in Testing.My roles & responsibilities is to understand and analyse user stories,translate them into comprehensive test plans and meticulously create test cases.
+                                I have expertise in different testing methods including regression, sanity, smoke and system Testing. 
+                                I effectively used JIRA as a bug logging and tracking tool in my previous roles and worked in Agile process. 
+                                I also have hands on experience on API testing using POSTMAN and Database testing using MYSQL.
+                            </p>
+                        </div> 
+                    </div>
+            </div>
+            <img src="./assets/arrow.png" alt=" arrow icon" class="icon arrow" onclick="location.href='./experience'"/>
+        </section>   
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-containers">
+                        <h2 class="experience-sub-title">QA Engineer</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>Test Cases</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>Regression</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>API Testing</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>DB Testing</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>Manual Testing</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>Mobile Testing</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-containers">
+                        <h2 class="experience-sub-title">QA Engineer</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>Test Plan</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>Magento Testing</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>Web Application Testing</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                       <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>Native App Testing</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <!-- <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>Manual Testing</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon"
+                                class="icon"
+                                />
+                                <div>
+                                    <h3>Mobile Testing</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                        -->     
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#projects'"
+            />
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img
+                    src="./assets/email.png"
+                    alt="Email icon"
+                    class="icon contact-icon email-icon"
+                    />
+                    <p><a href="mailto:exampleemail@gmail.com">Examplemail@gmail.com</a>
+                    </p>
+                </div>  
+            <div class="contact-info-container">
+                <img
+                src="./assets/linkedin.png"
+                alt="LinkedIn icon"
+                class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/ravi-kumar-m-391036bb/">LinkedIn</a>
+                </p>
+            </div>
+        </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#168; 2024 Ravi KMali. All Rights Reserved.</p>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
